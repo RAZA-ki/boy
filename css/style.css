@@ -165,7 +165,10 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("image/28.jpg") no-repeat center;
+    background: rgba(243,129,129,0.9); 
+	background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
+	background: -o-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
+	background: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
